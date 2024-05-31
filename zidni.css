@@ -1,0 +1,140 @@
+/* Reset CSS */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("gambar/foto_dinas_kesehatan.jpg");
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: hsl(235, 86%, 44%);
+  color: hwb(244 75% 19%);
+  padding: px;
+  text-align: center;
+}
+
+nav {
+  background-color: hwb(116 5% 18%);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+nav img {
+  width: 70px;
+  margin-right: 20px;
+}
+nav li {
+  margin-left: 20px;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #000;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(26, 140, 165, 0.1);
+  text-align: center;
+}
+
+.tot {
+  list-style-type: none;
+  margin-top: 30px ;
+  padding: 20px;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(185, 184, 184);
+  height: 50px;
+  font-size: 30px;
+  font-style: times;
+}
+
+.blok {
+  list-style-type: none;
+  margin: 20px auto;
+  padding: 20px;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(236, 228, 226);
+  height: 50px;
+  width: 450px;
+  margin-top: 200px; ;
+  font-size: 22px;
+  font-style: times;
+}
+
+div {
+  .judul {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .judul {
+    background-color: white;
+    color: black;
+    border: 2px solid #04aa6d;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .judul:hover {
+    background-color: #04aa6d;
+    color: white;
+  }
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(61, 222, 25, 0.8);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.qwer{
+  background-color: #fff;
+    padding: 20px;
+    text-align: left;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
