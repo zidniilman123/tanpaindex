@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boyolali Sehat: Akses Mudah Fasilitas Kesehatan</title>
+    <link rel="stylesheet" href="zidni.css" />
+    <style>
+      body,
+      h1,
+      h2,
+      p,
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-image: url("gambar/foto_dinas_kesehatan.jpg");
+        background-size: cover;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      header {
+        background-color: hsl(235, 86%, 44%);
+        color: hwb(244 75% 19%);
+        padding: px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: hwb(116 5% 18%);
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+      }
+      nav img {
+        width: 70px;
+        margin-right: 20px;
+      }
+      nav li {
+        margin-left: 20px;
+      }
+      nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      nav li a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #000;
+      }
+
+      section {
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px auto;
+        width: 80%;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(26, 140, 165, 0.1);
+        text-align: center;
+      }
+
+      .tot {
+        list-style-type: none;
+        margin-top: 30px;
+        padding: 20px;
+        overflow: hidden;
+        text-align: center;
+        background-color: rgb(185, 184, 184);
+        height: 50px;
+        font-size: 30px;
+        font-style: times;
+      }
+
+      .blok {
+        list-style-type: none;
+        margin: 20px auto;
+        padding: 20px;
+        overflow: hidden;
+        text-align: center;
+        background-color: rgb(236, 228, 226);
+        height: 50px;
+        width: 450px;
+        margin-top: 200px;
+        font-size: 22px;
+        font-style: times;
+      }
+
+      .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 20px;
+      }
+      .button-container a {
+        text-decoration: none;
+      }
+      .button-container button {
+        background-color: hwb(270 52% 47%);
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      .button-container button:hover {
+        background-color: hsl(240, 1%, 18%);
+      }
+
+      .maps iframe {
+        width: 1200px;
+        height: 500px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(61, 222, 25, 0.8);
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+
+      .qwer {
+        background-color: #fff;
+        padding: 20px;
+        text-align: left;
+        margin: 20px auto;
+        width: 80%;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <img src="gambar/logo_boyolali.png" alt="logo" />
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Peta.html">Peta</a></li>
+        <li><a href="Tentang Kami.html">Tentang Kami</a></li>
+        <li><a href="Testimoni.html">Feedback</a></li>
+      </ul>
+    </nav>
+
+    <section class="tot">
+      <p>Boyolali Sehat: Temukan Fasilitas Kesehatan Terbaik Untuk Anda</p>
+    </section>
+
+    <section class="blok">
+      <a href="Fasilitas Kesehatan Kabupaten Boyolali.html">Fasilitas Kesehatan Kabupaten Boyolali</a>
+    </section>
+
+    <section>
+      <h2>Peta Persebaran Fasilitas Kesehatan Kabupaten Boyolali</h2>
+      <div class="maps">
+        <iframe src="https://zidniilman123.github.io/qgis2webfiks/"></iframe>
+      </div>
+    </section>
+
+    <section class="qwer">
+      <h2>Tentang Kami</h2>
+      <p>Dengan memanfaatkan teknologi WebGIS (Web Geographic Information System), kami berupaya memetakan persebaran fasilitas kesehatan di seluruh wilayah Kabupaten Boyolali. Berdasarkan Peraturan Menteri Pekerjaan Umum No.32/Permen/M/2006, standar jarak ideal untuk fasilitas pelayanan kesehatan puskesmas adalah 2 kilometer dari pusat permukiman. Melalui analisis spasial yang mendalam, kami dapat mengidentifikasi daerah-daerah yang membutuhkan penambahan fasilitas kesehatan baru atau relokasi fasilitas existing untuk meningkatkan aksesibilitas masyarakat.</p>
+      <p>Tujuan kami adalah memberikan rekomendasi kepada pemerintah daerah Kabupaten Boyolali tentang lokasi-lokasi strategis untuk pembangunan fasilitas kesehatan baru atau relokasi fasilitas existing, sehingga setiap penduduk dapat dengan mudah menjangkau layanan kesehatan yang dibutuhkan secara tepat waktu.</p>
+      <p>Selain itu, kami juga bertekad untuk menyediakan informasi spasial yang akurat dan terkini mengenai persebaran fasilitas kesehatan di Kabupaten Boyolali melalui sistem informasi berbasis WebGIS. Hal ini akan membantu meningkatkan kesadaran masyarakat akan pentingnya akses yang merata terhadap layanan kesehatan dan mendorong pemanfaatan teknologi dalam upaya meningkatkan derajat kesehatan masyarakat.</p>
+      <p>Dengan semangat dan komitmen yang kuat, kami berharap dapat berkontribusi dalam mewujudkan akses yang setara bagi seluruh masyarakat Kabupaten Boyolali terhadap fasilitas kesehatan yang berkualitas, sehingga dapat meningkatkan derajat kesehatan masyarakat secara keseluruhan.</p>
+      <p>Kami merupakan mahasiswa Teknik geomatika UPN Veteran Yogyakarta yang sedang mengembangkan produk WebGIS. Ini merupakan produk WebGIS yang disusun oleh Kelompok 18 Praktikum SIG terapan yang beranggotakan:</p>
+      <ul>
+        <li>Zidni Ilman Nafia (117210063)</li>
+        <li>Ferdyan Aji Bachtiar (117210019)</li>
+        <li>Jogi Swenfri Manurung (117200004)</li>
+        <li>Akhsan Achmad Jatmiko (117210025)</li>
+      </ul>
+      <p>Contac Person: Hp: 085727249259, Email: jiidzidni@gmail.com, LinkedIn: -</p>
+      <p>Alamat: Kampus Unit II (Prodi Teknik Geomatika), Jl. Babarsari No.2, Caturtunggal, Kec. Depok, Kabupaten Sleman, 55281, Daerah Istimewa Yogyakarta.</p>
+    </section>
+
+    <section>
+      <div class="button-container">
+        <a href="https://puskesmascepogo.boyolali.go.id/"><button class="judul">Puskesmas Cepogo</button></a>
+        <a href="https://puskesmasselo.boyolali.go.id/" target="_blank"><button class="judul">Puskesmas Selo</button></a>
+        <a href="https://puskesmasampel.boyolali.go.id/" target="_blank"><button class="judul">Puskesmas Ampel</button></a>
+        <a href="https://puskesmasteras.boyolali.go.id/" target="_blank"><button class="judul">Puskesmas Teras</button></a>
+        <a href="https://puskesmasgladagsari.boyolali.go.id/" target="_blank"><button class="judul">Puskesmas Gladaksari</button></a>
+        <a href="https://puskesmasboyolali1.boyolali.go.id/" target="_blank"><button class="judul">Puskesmas Boyolali I</button></a>
+        <a href="https://puskesmasmusuk.boyolali.go.id/" target="_blank"><button class="judul">Puskesmas Musuk</button></a>
+        <a href="https://puskesmasboyolali2.boyolali.go.id/" target="_blank"><button class="judul">Puskesmas Boyolali II</button></a>
+        <a href="https://puskesmasnogosari.boyolali.go.id/" target="_blank"><button class="judul">Puskesmas Nogosari</button></a>
+        <a href="https://puskesmaskaranggede.boyolali.go.id/" target="_blank"><button class="judul">Puskesmas Karanggede</button></a>
+        <a href="https://puskesmaswonoayu.boyolali.go.id/" target="_blank"><button class="judul">Puskesmas Wonoayu</button></a>
+        <a href="https://puskesmasngemplak.boyolali.go.id/" target="_blank"><button class="judul">Puskesmas Ngemplak</button></a>
+        <a href="https://puskesmasandong.boyolali.go.id/" target="_blank"><button class="judul">Puskesmas Andong</button></a>
+        <a href="https://puskesmasjatinom.boyolali.go.id/" target="_blank"><button class="judul">Puskesmas Jatinom</button></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright ©2023 by Kelompok 18 Praktikum SIG Terapan UPN Veteran Yogyakarta</p>
+    </footer>
+  </body>
+</html>
